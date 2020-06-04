@@ -717,6 +717,13 @@ a.nav__link {
         margin: auto;
     }
 
+    .btn:hover {
+        padding: 19px;
+        width: 213px;
+        margin: auto;
+    }
+
+
     .about__title {
         padding-top: 40px;
         margin-bottom: 10px;
@@ -728,6 +735,12 @@ a.nav__link {
 
     .info {
        font-size: 16px;
+    }
+
+    .button {
+        position: relative;
+        color: #fff;
+        margin: 0px;
     }
 
     .button {
