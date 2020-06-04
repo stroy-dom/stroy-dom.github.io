@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Строй дом | Строительная компания</title>
+</head>
+
+<body>
+    <header id="yak1" class="header">
+        <div class="container">
+            <a href="#"><img class="logo" src="img/logo.png"></a>
+            <nav id="#menu">
+                <a class="nav__link" href="#yak1">Главная</a>
+                <a class="nav__link" href="#yak2">О нас</a>
+                <a class="nav__link" href="#yak3">Услуги</a>
+                <a class="nav__link" href="#yak4">Отзывы</a>
+                <a class="nav__link" href="#yak5">Новости</a>
+            </nav>
+
+            <div class="tel-number">
+                <img class="tel-photo" src="img/tel-phone.svg">  <a class="tel" href="tel:+79262332211">+7
+                    (926)-233-22-11</a> <br>
+            </div>
+        </div> <!-- container !-->
+    </header>
+    <div class="content">
+
+    </div>
+    <div class="main">
+        <div class="photo">
+            <div class="photo-img">
+        </div>
+            <p class="title">Проектирование и строительство <br> современного жилья под ключ </p>
+            <ul type="square" class="advantage">
+                <li>Оказываем полный комплекс строительных и инженерных работ</li>
+                <li>Используем самые передовые технологии и материалы</li>
+                <li>Наши сотрудники являются высококвалифицированными специалистами</li>
+                <li>Мы на рынке уже более 15 лет!</li>
+            </ul>
+            <div class="button">
+                <a href="#openModal" class="btn"><span>Рассчитать стоимость<span></span></span></a>
+            </div>
+            <div id="openModal" class="modalDialog">
+                <div>
+                    <form method="POST" action="send.php">
+                        <div class="form-at">
+
+                            <div class="validate-input-at w-50" data-validate="Обязательное поле">
+                                <a class="close" href="#"></a>
+                                <input class="input-at" maxlength="30" type="name" name="name" required="required"
+                                    placeholder="Введите имя"><span class="focus-input-at"></span>
+                            </div>
+
+                            <div class="validate-input-at w-50" data-validate="Обязательное поле">
+                                <input type="tel" class="input-at" name="tel" id="phone" required="required"
+                                    placeholder="Введите номер телефона"><span class="focus-input-at"></span>
+                            </div>
+
+                            <div class="validate-input-at w-50" data-validate="Обязательное поле">
+                                <input type="text" class="input-at" name="email" id="contactsForm" required="required"
+                                    placeholder="Введите Email"><span class="focus-input-at"></span>
+                            </div>
+
+                            <div class="validate-input-at" data-validate="Обязательное поле">
+                                <textarea class="input-at" maxlength="1500" name="text" required="required"
+                                    placeholder="Введите сообщение"></textarea>
+                                <span class="focus-input-at"></span>
+                            </div>
+
+                            <input id="submit-at" class="form-at-btn" type="submit" value="Отправить" name="sab">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="info">
+        <div class="about">
+
+            <div id="yak2" class="about__title">СТРОИТЕЛЬНАЯ КОМПАНИЯ — СТРОЙ ДОМ</div>
+            <div class="about__us">
+                Интересуют услуги строительной компании? Тогда вы попали по нужному адресу. Строй дом это cтроительная
+                компания
+                со многолетним опытом работы на рынке и проверенной репутацией. Нашими клиентами являются частные лица,
+                небольшие организации и крупные предприятия. Мы готовы выполнить любые виды строительных работ
+                качественно,
+                оперативно, недорого. Сотрудничество с нашей компанией гарантированно принесёт только положительные
+                эмоции.
+            </div>
+
+            <div class="prof__title">ПРОФЕССИОНАЛЬНЫЙ ПОДХОД</div>
+            <div class="prof__about">Московская строительная компания Строй Дом является одной из ведущих фирм. Мы
+                используем только качественные
+                материалы, активно внедряем инновационные технологии и нестандартные решения. Команда специалистов
+                готова
+                взяться за реализацию самых сложных проектов и успешно выполнить их. Что примечательно, все работы
+                проходят
+                с минимальным участием клиента, наши сотрудники возьмут все хлопоты на себя, а вам останется только
+                оценить
+                результат. <br><br> Официальный сайт строительной компании предоставляет обширную информацию. Чтобы
+                получить дополнительные данные про услуги или проконсультироваться, обратитесь к нашим сотрудникам.
+            </div>
+            <div id="yak3" class="serv__title">НАШИ УСЛУГИ</div>
+        </div>
+
+            <div class="service">
+                <div class="service-card">
+                    <img class="service__photo" src="img/serv-img1.jpg">
+                    <div class="service__title">Фасадные работы</div>
+                    <div class="service__subtitle">• Мойка фасадов<br>• Реконструкция фасада<br>• Мойка окон<br>• Ремонт
+                        балконов
+                        и лоджий<br>• Реставрация фасада<br>• Декор фасада<br>• Отделка фасада<br>• Ремонт фасада<br>
+                        • Монтаж вентилируемого фасада<br>• Утепление фасадов</div>
+                </div>
+
+                <div class="service-card">
+                    <img class="service__photo" src="img/serv-img2.jpg">
+                    <div class="service__title">Кровельные работы</div>
+                    <div class="service__subtitle">• Мягкие кровли<br>• Жесткие кровли<br>• Уборка снега с крыш<br>•
+                        Устройство
+                        крыш<br>• Гидроизоляция кровли<br>• Монтаж кровли<br>• Ремонт кровли<br>• Утепление кровли<br>
+                        • Зеленая кровля<br>• Строительство мансард<br>• Водосточные системы</div>
+                </div>
+
+                <div class="service-card">
+                    <img class="service__photo" src="img/serv-img3.jpg">
+                    <div class="service__title">Отделочные работы</div>
+                    <div class="service__subtitle">• Укладка ламината<br>• Укладка паркетной доски<br>• Окраска
+                        потолков<br>• Окраска
+                        стен<br>• Оклейка стен обоями<br>• Нанесение штукатурки<br>• Шпаклевка стен<br>• Шпаклевка
+                        потолков<br>• Облицовка плиткой<br>• Подвесные потолки</div>
+                </div>
+
+                <div class="service-card">
+                    <img class="service__photo" src="img/serv-img4.jpg">
+                    <div class="service__title">Проектирование</div>
+                    <div class="service__subtitle">• Согласование проекта<br>• Техническое обследование зданий<br>•
+                        Проектные работы<br>• Проектирование общественных зданий<br>• Проектирование коттеджей<br>•
+                        Промышленное
+                        проектирование<br>• Проектирование торговых центров<br>• Проектирование складов<br>•
+                        Проектирование
+                        магазинов<br>• Проектирование ресторанов и кафе</div>
+                </div>
+
+                <div class="service-card">
+                    <img class="service__photo" src="img/serv-img5.jpg">
+                    <div class="service__title">Ремонт помещений</div>
+                    <div class="service__subtitle">• Ремонт частного дома<br>• Ремонт дачного дома<br>• Ремонт
+                        коттеджа<br>• Ремонт
+                        квартир<br>• Ремонт нежилых помещений<br>• Ремонт производственных помещений<br>• Дизайн -
+                        проект<br>• Инженерный
+                        проект<br>• Перепланировка нежилого помещения<br></div>
+                </div>
+
+                <div class="service-card">
+                    <img class="service__photo" src="img/serv-img6.jpg">
+                    <div class="service__title">Реконструкция зданий</div>
+                    <div class="service__subtitle">• Реконструкция частного дома<br>• Реконструкция дачного дома<br>•
+                        Реконструкция
+                        коттеджа<br>• Реконструкция офисов<br>• Утепление<br>• Гидроизоляция<br>• Ремонт стен и
+                        усиление кладки<br>• Устройство
+                        перекрытий<br>• Устройство подземного паркинга<br>• Реконструкция подвала<br>• Надстройка
+                        этажа</div>
+                </div>
+
+                <div class="service-card">
+                    <img class="service__photo" src="img/serv-img7.jpg">
+                    <div class="service__title">Строительство <br>загородных домов</div>
+                    <div class="service__subtitle">• Строительство домов из бревна <br>
+                        • Строительство домов из бруса<br>• Строительство каркасных домов</div>
+                </div>
+
+                <div class="service-card">
+                    <img class="service__photo" src="img/serv-img8.jpg">
+                    <div class="service__title">Строительство коттеджей</div>
+                    <div class="service__subtitle">• Реконструкция частного дома<br>• Реконструкция дачного дома<br>•
+                        Реконструкция
+                        коттеджа<br>• Реконструкция офисов<br>• Утепление<br>• Гидроизоляция<br>• Ремонт стен и
+                        усиление кладки<br>• Устройство
+                        перекрытий<br>• Устройство подземного паркинга<br>• Реконструкция подвала<br>• Надстройка
+                        этажа</div>
+                </div>
+            </div>
+            </div>
+    </div>
+
+    <!---------------------Подключение JS--------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="JS/jquery.maskedinput.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#phone").mask("+7 (999) 999-99-99");
+        });
+    </script>
+
+    <script src="JS/inputmask.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#contactsForm").inputmask("email")
+        });
+    </script>
+
+
+    </html>
