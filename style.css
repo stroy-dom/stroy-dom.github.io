@@ -204,8 +204,8 @@ ul.advantage {
 
 /* Форма */
 .form-at {
-    width: 60%;
     padding: 25px;
+    max-width: 430px;
     margin: 0 auto;
     box-sizing: border-box;
     overflow: hidden;
@@ -421,7 +421,7 @@ input.input-at:focus {
 }
 
 .modalDialog>div {
-    width: 800px;
+    width: 100%;
     position: relative;
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
@@ -548,93 +548,13 @@ img.service__photo {
     margin: 20px;
 }
 
-/*////////////////////*/
-
-/* @media (max-width: 2280px) {
-.advantage {
-    padding: 0;
-    padding-right: 20px;
-    margin: 10px;
-    width: fit-content;
-    max-width: 100%;
-}
-
-.advantage li {
-    position: relative;
-    border: 2px solid #267ac3;
-    background: #EBF3FA;
-    padding: 14px 13px 16px 25px;
-    margin: 12px 0 12px 40px;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-}
-
-ul.advantage {
-    margin-left: 10px;
-}
-
-.about__title {
-    width: auto;
-}
-
-a.tel {
-    font-size: 0px;
-}
-
-a.nav__link {
-    font-size: 15px;
-}
-
-} */
-
-
-
-/* Главное фото */
-@media (min-width: 1280px) {
-    img.photo_imp {
-        width: 100%;
-    }
-}
-
-@media (min-width: 320px) {
-    img.photo_imp {
-        width: 220%;
-    }
-}
-
-@media (min-width: 995px) {
-    img.photo_imp {
-        width: 125%;
-    }
-}
-
-@media (min-width: 1024px) {
-    img.photo_imp {
-        width: 121%;
-    }
-}
-
-@media (min-width: 768px) {
-    img.photo_imp {
-        width: 161%;
-    }
-}
-
-@media (min-width: 1024px) {
-    img.photo_imp {
-        width: 121%;
-    }
-}
-
-/*///////////////////////*/
-
 
 .close {
     cursor: pointer;
     position: absolute;
-    right: -26px;
-    bottom: 65px;
-    width: 32px;
+    right: 15px;
+    bottom: 67px;
+    width: 0px;
     color: #384658;
     height: 30px;
     opacity: 0.3;
@@ -712,8 +632,9 @@ a.nav__link {
     }
 
     .btn {
+        text-align: center;
         padding: 19px;
-        width: 213px;
+        width: 215px;
         margin: auto;
     }
 
@@ -768,5 +689,11 @@ a.nav__link {
         max-width: 150px;;
     }
 
+    .modalDialog>div {
+        width: 100%;
+        position: relative;
+        margin: 25% auto;
+        padding: 5px 20px 13px 20px;
+    }
 
 }
