@@ -124,10 +124,9 @@ ul.advantage {
 }
 
 .advantage li:before {
-    /* Стили для треугольников */
     line-height: 32px;
     position: absolute;
-    top: 4px;
+    top: 8px;
     left: -40px;
     width: 40px;
     text-align: center;
@@ -136,9 +135,7 @@ ul.advantage {
     color: #FFF;
     background: #267ac3;
     counter-increment: li;
-    /* для автоматического счётчика */
     content: counter(li);
-    /* для автоматического счётчика */
     transition-duration: 0.3s;
 }
 
@@ -148,14 +145,13 @@ ul.advantage {
 }
 
 .advantage li:after {
-    /* Стили для треугольников */
     position: absolute;
     left: 0;
-    top: 4px;
+    top: 8px;
     content: "";
     border: 16px solid transparent;
     border-left-color: #267ac3;
-    transition-duration: 0.3s
+    transition-duration: 0.3s;
 }
 
 .advantage li:hover:after {
