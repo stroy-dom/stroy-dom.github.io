@@ -450,7 +450,7 @@ input.input-at:focus {
 
 .about__us {
     padding-top: 25px;
-    line-height: 1.5;
+    line-height: 1.4;
     text-align: justify;
 }
 
@@ -525,10 +525,12 @@ img.service__photo {
 }
 
 .service__subtitle {
-    padding: 5px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-top: 4px;
     margin-left: 5px;
     margin-top: 5px;
-    line-height: 1.2;
+    line-height: 1.3;
     font-size: 16px;
 }
 
@@ -609,6 +611,7 @@ img.service__photo {
         margin: 40px;
         line-height: 1.3;
         margin-top: 65px;
+        margin-left: 53px;
         margin-bottom: 0px;
         padding-bottom: 25px;
     }
