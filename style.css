@@ -564,9 +564,9 @@ input.input-at:focus {
 .close {
     cursor: pointer;
     position: absolute;
-    right: 15px;
-    bottom: 67px;
-    width: 0px;
+    right: -25px;
+    bottom: 65px;
+    width: 35px;
     color: #384658;
     height: 30px;
     opacity: 0.3;
