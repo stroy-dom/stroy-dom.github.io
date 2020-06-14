@@ -425,7 +425,7 @@ input.input-at:focus {
 
 /* info */
 
-.info {
+.content {
     width: 100%;
     display: block;
     min-height: 100vh;
@@ -709,4 +709,28 @@ input.input-at:focus {
         padding: 5px 20px 13px 20px;
     }
 
+}
+
+.feedback{
+    max-width: 1340px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.feedback-header {
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    margin: 0px 0px 0px 20px;
+    color: #fbfbfb;
+    border-bottom: 5px solid #ff5e00;
+    font-size: 26px;
+    font-weight: bold;
+    width: fit-content;
+    text-transform: uppercase;
+}
+
+.feedback-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
