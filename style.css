@@ -745,6 +745,11 @@ input.input-at:focus {
     background-color: #ebebeb;
     box-shadow: 12px 19px 19px 3px rgba(0, 0, 0, 0.534);
     width: 500px;
-    margin: 30px 34px 0px 0px;
+    transition: ease-in-out 0.3s;
+    margin: 40px 34px 0px 0px;
     height: 350px;
+}
+
+.feedback-card:hover {
+    box-shadow: 8px 9px 8px 5px rgb(53, 73, 99);
 }
