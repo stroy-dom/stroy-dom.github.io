@@ -714,7 +714,9 @@ input.input-at:focus {
 
 .feedback{
     max-width: 1340px;
-    height: 150px;
+    height: 100vh;
+    height: fit-content;
+    padding-bottom: 30px;
     margin: 0 auto;
 }
 
@@ -734,5 +736,15 @@ input.input-at:focus {
 .feedback-container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin: 0px 0px 0px 20px;
+}
+
+.feedback-card{
+    background-color: #ebebeb;
+    box-shadow: 12px 19px 19px 3px rgba(0, 0, 0, 0.534);
+    width: 500px;
+    margin: 30px 34px 0px 0px;
+    height: 350px;
 }
