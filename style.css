@@ -730,7 +730,7 @@ input.input-at:focus {
 
 .slider {
 	position: relative;
-	padding: 0px 60px;
+	padding: 0px 50px;
 }
 
 .slider .slick-arrow{
@@ -740,7 +740,7 @@ input.input-at:focus {
 	margin: -30px 20px 0px 20px;
 	z-index: 10;
 	font-size: 0;
-	width: 30px;
+	width: 20px;
 	height: 60px;
 }
 .slider .slick-arrow.slick-prev{
