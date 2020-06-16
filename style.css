@@ -436,6 +436,8 @@ input.input-at:focus {
     background-color: #28323f
 }
 
+
+
 .about__title {
     text-align: center;
     padding-top: 20px;
@@ -621,6 +623,10 @@ input.input-at:focus {
     a.tel {
         font-size: 0px;
     }
+
+    .content {
+        font-size: 16px;
+    }
     
     p.title {
         font-size: 23px;
@@ -645,6 +651,8 @@ input.input-at:focus {
     .advantage li {
         padding: 16px 20px 16px 28px;
     }
+
+    
 
     .btn {
         text-align: center;
