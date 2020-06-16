@@ -795,14 +795,14 @@ input.input-at:focus {
    width: 50%;
    margin: auto;
    text-align: center;
-   font-size: 24px;
+   font-size: 22px;
    display: flex;
    font-weight: bold;
    justify-content: center;
 }
 
 .feedback-city {
-   font-size: 18px;
+   font-size: 16px;
    display: flex;
    font-style: italic;
    font-weight: bold;
