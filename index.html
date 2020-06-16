@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
@@ -315,6 +316,16 @@
 
 
     <!-- Подключение JS -->
+    <script type="text/javascript">
+        $(function(){
+                $("a[href^='#']").click(function(){
+                        var _href = $(this).attr("href");
+                        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+                        return false;
+                });
+        });
+    </script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="JS/jquery.maskedinput.min.js"></script>
     <script>
@@ -322,6 +333,8 @@
             $("#phone").mask("+7 (999) 999-99-99");
         });
     </script>
+
+    
 
     <!-- Подключаем jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
