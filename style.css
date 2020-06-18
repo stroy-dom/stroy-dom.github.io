@@ -51,6 +51,7 @@ img.logo {
 /* Телефон */
 img.tel-photo {
     width: 25px;
+    margin-right: 10px;
 }
 
 .tel-number {
