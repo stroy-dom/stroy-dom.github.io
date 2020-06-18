@@ -538,7 +538,7 @@ input.input-at:focus {
     color: #080808;
 }
 
-/* service-1 */
+/* service */
 .service__card {
     margin-bottom: 50px;
     display: inline-block;
@@ -734,11 +734,20 @@ input.input-at:focus {
     }
 
     .service__title {
-        font-size: 22px;
+        font-size: 19px;
         font-weight: bold;
         color: #080808;
         margin: 12px 10px 12px 10px;
         text-align: center;
+    }
+
+    .service__header {
+        font-size: 20px;
+        padding-top: 40px;
+        max-width: fit-content;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 10px;
     }
 
     .modal-dialog>div {
