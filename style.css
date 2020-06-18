@@ -11,6 +11,7 @@ a {
     text-decoration: none;
 }
 
+/* Header */
 header {
     background: #28323f;
     height: 78.5px;
@@ -48,7 +49,7 @@ img.logo {
     width: 125px;
 }
 
-/* Телефон */
+/* telephone */
 img.tel-photo {
     width: 25px;
     margin-right: 10px;
@@ -72,6 +73,7 @@ a.tel:hover {
     text-decoration: transparent;
 }
 
+/* Main photo */
 .photo-img {
     background-image: url(img/photo-main.png);
     background-repeat: no-repeat;
@@ -84,7 +86,7 @@ a.tel:hover {
     position: fixed;
 }
 
-/* Главный заголовок */
+/* Main header */
 p.title {
     max-width: 100%;
     font-size: 38px;
