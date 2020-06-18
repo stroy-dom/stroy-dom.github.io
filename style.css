@@ -750,6 +750,10 @@ input.input-at:focus {
         margin-bottom: 10px;
     }
 
+    .square {
+        font-size: 15px;
+    }
+    
     .modal-dialog>div {
         width: 100%;
         position: relative;
