@@ -203,8 +203,8 @@ ul.advantage {
     background: #222b36;
 }
 
-/* Форма */
-.form-at {
+/* forma */
+.forma {
     padding: 25px;
     max-width: 430px;
     margin: 0 auto;
@@ -214,8 +214,7 @@ ul.advantage {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 10px 18px rgba(0, 0, 0, 0.2);
 }
 
-.validate-input-at,
-.no-validate-input-at {
+.input__form {
     width: 98%;
     position: relative;
     background-color: #fff;
@@ -224,14 +223,12 @@ ul.advantage {
     margin-bottom: 20px;
 }
 
-.validate-input-at.w-50,
-.no-validate-input-at.w-50 {
+.input__form {
     width: calc(100% - 10px);
     display: block;
 }
 
-.validate-input-at.w-50:first-child,
-.no-validate-input-at.w-50:first-child {
+.input__form:first-child{
     margin-right: 20px;
     margin-top: 30px;
 }
@@ -286,7 +283,7 @@ input.input-at:focus {
     transform: scale(1);
 }
 
-.form-at-btn {
+.forma-btn {
     position: relative;
     display: block;
     padding: 0 40px;
@@ -482,11 +479,51 @@ input.input-at:focus {
     text-transform: uppercase;
 }
 
+.square {
+    margin: 0;
+    counter-reset: li;
+    list-style: none;
+    padding: 0px 10px 10px 10px;
+  }
+  .square li {
+    position: relative;
+    margin: 0 0 10px 20px;
+    padding: 4px 8px;
+    border-top: 2px solid #28323f;
+    transition: 0.2s linear;
+  }
+  .square li:last-child {margin-bottom: 0;}
+  .square li:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    top: -2px;
+    left: -2em;
+    width: 2em;
+    box-sizing: border-box;
+    margin-right: 8px;
+    padding: 4px;
+    border-top: 2px solid #28323f;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    background: #28323f;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.2s linear;
+  }
+  .square li:hover {border-top: 2px solid #ff5e00;}
+  .square li:hover:before {
+    border: 2px solid #ff5e00;
+    background: #ff5e00;
+  }
+
 .service__title {
     font-size: 22px;
     font-weight: bold;
     color: #080808;
-    margin: 10px 10px 0px 10px;
+    margin: 12px 10px 12px 10px;
     text-align: center;
 }
 
@@ -541,10 +578,8 @@ input.input-at:focus {
     font-weight: 500;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 20px;
-    padding-top: 4px;
+    padding-bottom: 10px;
     margin-left: 5px;
-    margin-top: 5px;
     line-height: 1.3;
     font-size: 16px;
 }
@@ -703,7 +738,7 @@ input.input-at:focus {
         font-size: 22px;
         font-weight: bold;
         color: #080808;
-        margin: 10px 10px 0px 10px;
+        margin: 12px 10px 12px 10px;
         text-align: center;
     }
 

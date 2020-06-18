@@ -38,35 +38,35 @@
                 <li>Мы на рынке уже более 15 лет!</li>
             </ul>
             <div class="button">
-                <a href="#open-modal" class="btn"><span>Рассчитать стоимость<span></span></span></a>
+                <a href="#open-modal" class="btn"><span>Рассчитать стоимость</span></a>
             </div>
             <div id="open-modal" class="modal-dialog">
                 <div>
                     <form method="POST" action="send.php">
-                        <div class="form-at">
+                        <div class="forma">
 
-                            <div class="validate-input-at w-50" data-validate="Обязательное поле">
+                            <div class="input__form" data-validate="Обязательное поле">
                                 <a class="close" href="#"></a>
                                 <input class="input-at" type="text" name="name" required="required"
                                     placeholder="Введите имя"><span class="focus-input-at"></span>
                             </div>
 
-                            <div class="validate-input-at w-50" data-validate="Обязательное поле">
+                            <div class="input__form" data-validate="Обязательное поле">
                                 <input type="tel" class="input-at" name="tel" id="phone" required="required"
                                     placeholder="Введите номер телефона"><span class="focus-input-at"></span>
                             </div>
 
-                            <div class="validate-input-at w-50" data-validate="Обязательное поле">
+                            <div class="input__form" data-validate="Обязательное поле">
                                 <input type="text" class="input-at" name="email" id="contactsForm" required="required"
                                     placeholder="Введите Email"><span class="focus-input-at"></span>
                             </div>
 
-                            <div class="validate-input-at" data-validate="Обязательное поле">
+                            <div class="input__form" data-validate="Обязательное поле">
                                 <textarea class="input-at" maxlength="1500" name="text" required="required"
                                     placeholder="Введите сообщение"></textarea>
                                 <span class="focus-input-at"></span>
                             </div>
-                            <input id="submit-at" class="form-at-btn" type="submit" value="Отправить" name="sab">
+                            <input id="submit-at" class="forma-btn" type="submit" value="Отправить" name="sub">
                         </div>
                     </form>
                 </div>
@@ -76,7 +76,7 @@
 
     <div class="content">
         <div class="about">
-            <div id="about" class="about__title">СТРОИТЕЛЬНАЯ КОМПАНИЯ — СТРОЙ ДОМ</div>
+            <div class="about__title" id="about">СТРОИТЕЛЬНАЯ КОМПАНИЯ — СТРОЙ ДОМ</div>
             <div class="about__us">
                 Интересуют услуги строительной компании? Тогда вы попали по нужному адресу. Строй дом это cтроительная
                 компания
@@ -99,85 +99,153 @@
                 результат. <br><br> Официальный сайт строительной компании предоставляет обширную информацию. Чтобы
                 получить дополнительные данные про услуги или проконсультироваться, обратитесь к нашим сотрудникам.
             </div>
-            <div id="service" class="service__header">НАШИ УСЛУГИ</div>
+            <div class="service__header" id="service">НАШИ УСЛУГИ</div>
         </div>
 
         <div class="service">
             <div class="service__card">
                 <div class="image"><img class="service__photo" src="img/serv-img1.jpg" alt="serv-img-1"></div>
                 <div class="service__title">Фасадные работы</div>
-                <div class="service__subtitle">• Мойка фасадов<br>• Реконструкция фасада<br>• Мойка окон<br>• Ремонт
-                    балконов
-                    и лоджий<br>• Реставрация фасада<br>• Декор фасада<br>• Отделка фасада<br>• Ремонт фасада<br>
-                    • Монтаж вентилируемого фасада<br>• Утепление фасадов</div>
+                <div class="service__subtitle">
+                    <ol class="square">
+                        <li>Мойка фасадов</li>
+                        <li>Реконструкция фасада</li>
+                        <li>Мойка окон</li>
+                        <li>Ремонт балконов и лоджий</li>
+                        <li>Реставрация фасада</li>
+                        <li>Декор фасада</li>
+                        <!-- <li>Отделка фасада</li> -->
+                        <!-- <li>Ремонт фасада</li>
+                        <li>Монтаж вентилируемого фасада</li>
+                        <li>Утепление фасадов</li> -->
+                    </ol>
             </div>
+                </div>
 
             <div class="service__card">
                 <div class="image"><img class="service__photo" src="img/serv-img2.jpg" alt="serv-img-2"></div>
                 <div class="service__title">Кровельные работы</div>
-                <div class="service__subtitle">• Мягкие кровли<br>• Жесткие кровли<br>• Уборка снега с крыш<br>•
-                    Устройство
-                    крыш<br>• Гидроизоляция кровли<br>• Монтаж кровли<br>• Ремонт кровли<br>• Утепление кровли<br>
-                    • Зеленая кровля<br>• Строительство мансард<br>• Водосточные системы</div>
+                <div class="service__subtitle">
+                    <ol class="square">
+                        <li>Мягкие кровли</li>
+                        <li>Жесткие кровли</li>
+                        <li>Уборка снега с крыш</li>
+                        <li>Устройство крыш</li>
+                        <li>Гидроизоляция кровли</li>
+                        <li>Монтаж кровли</li>
+                        <!-- <li>Ремонт кровли</li> -->
+                        <!-- <li>Утепление кровли</li>
+                        <li>Строительство мансард</li>
+                        <li>Водосточные системы</li> -->
+                    </ol>
+                </div>
             </div>
 
             <div class="service__card">
                 <div class="image"><img class="service__photo" src="img/serv-img3.jpg" alt="serv-img-3"></div>
                 <div class="service__title">Отделочные работы</div>
-                <div class="service__subtitle">• Укладка ламината<br>• Укладка паркетной доски<br>• Окраска
-                    потолков<br>• Окраска
-                    стен<br>• Оклейка стен обоями<br>• Нанесение штукатурки<br>• Шпаклевка стен<br>• Шпаклевка
-                    потолков<br>• Облицовка плиткой<br>• Подвесные потолки</div>
+                <div class="service__subtitle">
+                    <ol class="square">
+                        <li>Укладка ламината</li>
+                        <li>Укладка паркетной доски</li>
+                        <li>Окраска потолков</li>
+                        <li>Окраска стен</li>
+                        <li>Оклейка стен обоями</li>
+                        <li>Нанесение штукатурки</li>
+                        <!-- <li>Шпаклевка стен</li> -->
+                        <!-- <li>Шпаклевка потолков</li>
+                        <li>Облицовка плиткой</li>
+                        <li>Подвесные потолки</li> -->
+                    </ol>
+                </div>
             </div>
 
             <div class="service__card">
                 <div class="image"><img class="service__photo" src="img/serv-img4.jpg" alt="serv-img-4"></div>
                 <div class="service__title">Проектирование</div>
-                <div class="service__subtitle">• Согласование проекта<br>• Техническое обследование зданий<br>•
-                    Проектные работы<br>• Проектирование общественных зданий<br>• Проектирование коттеджей<br>•
-                    Промышленное
-                    проектирование<br>• Проектирование торговых центров<br>• Проектирование складов<br>•
-                    Проектирование
-                    магазинов</div>
+                <div class="service__subtitle">
+                    <ol class="square">
+                        <li>Согласование проекта</li>
+                        <li>Техническое обследование зданий</li>
+                        <li>Проектные работы</li>
+                        <li>Проектирование общественных зданий</li>
+                        <li>Проектирование коттеджей</li>
+                        <!-- <li>Промышленное проектирование</li> -->
+                        <!-- <li>Проектирование торговых центров</li>
+                        <li>Проектирование складов</li>
+                        <li>Проектирование магазинов</li> -->
+                    </ol>
+                </div>
             </div>
 
             <div class="service__card">
                 <div class="image"><img class="service__photo" src="img/serv-img5.jpg" alt="serv-img-5"></div>
                 <div class="service__title">Ремонт помещений</div>
-                <div class="service__subtitle">• Ремонт частного дома<br>• Ремонт дачного дома<br>• Ремонт
-                    коттеджа<br>• Ремонт
-                    квартир<br>• Ремонт нежилых помещений<br>• Ремонт производственных помещений<br>• Дизайн -
-                    проект<br>• Инженерный
-                    проект<br>• Перепланировка нежилого помещения<br></div>
+                <div class="service__subtitle">
+                    <ol class="square">
+                        <li>Ремонт частного дома</li>
+                        <li>Ремонт дачного дома</li>
+                        <li>Ремонт коттеджа</li>
+                        <li>Ремонт квартир</li>
+                        <li>Ремонт нежилых помещений</li>
+                        <li>Ремонт производственных помещений</li>
+                        <!-- <li>Дизайн - проект</li>
+                        <li>Инженерный проект</li>
+                        <li>Перепланировка нежилого помещения</li> -->
+                    </ol>
+                </div>
             </div>
 
             <div class="service__card">
                 <div class="image"><img class="service__photo" src="img/serv-img6.jpg" alt="serv-img-6"></div>
                 <div class="service__title">Реконструкция зданий</div>
-                <div class="service__subtitle">• Реконструкция частного дома<br>• Реконструкция дачного дома<br>•
-                    Реконструкция
-                    коттеджа<br>• Реконструкция офисов<br>• Утепление<br>• Гидроизоляция<br>• Ремонт стен и
-                    усиление кладки<br>• Устройство
-                    перекрытий<br>• Устройство подземного паркинга<br>• Реконструкция подвала<br>• Надстройка
-                    этажа</div>
+                <div class="service__subtitle">
+                    <ol class="square">
+                        <li>Реконструкция частного дома</li>
+                        <li>Реконструкция дачного дома</li>
+                        <li>Реконструкция коттеджа</li>
+                        <li>Реконструкция офисов</li>
+                        <li>Утепление</li>
+                        <li>Гидроизоляция</li>
+                        <!-- <li>Ремонт стен и усиление кладки</li>
+                        <li>Устройство перекрытий</li>
+                        <li>Устройство подземного паркинга</li>
+                        <li>Реконструкция подвала</li>
+                        <li>Надстройка этажа</li> -->
+                    </ol>
+                </div>
             </div>
 
             <div class="service__card">
                 <div class="image"><img class="service__photo" src="img/serv-img7.jpg" alt="serv-img-7"></div>
                 <div class="service__title">Строительство <br>загородных домов</div>
-                <div class="service__subtitle">• Строительство домов из бревна <br>
-                    • Строительство домов из бруса<br>• Строительство каркасных домов</div>
+                <div class="service__subtitle">
+                    <ol class="square">
+                        <li>Строительство домов из бревна</li>
+                        <li>Строительство домов из бруса</li>
+                        <li>Строительство каркасных домов</li>
+                    </ol>
+                </div>
             </div>
 
             <div class="service__card">
                 <div class="image"><img class="service__photo" src="img/serv-img8.jpg" alt="serv-img-8"></div>
                 <div class="service__title">Строительство коттеджей</div>
-                <div class="service__subtitle">• Реконструкция частного дома<br>• Реконструкция дачного дома<br>•
-                    Реконструкция
-                    коттеджа<br>• Реконструкция офисов<br>• Утепление<br>• Гидроизоляция<br>• Ремонт стен и
-                    усиление кладки<br>• Устройство
-                    перекрытий<br>• Устройство подземного паркинга<br>• Реконструкция подвала<br>• Надстройка
-                    этажа</div>
+                <div class="service__subtitle">
+                    <ol class="square">
+                        <li>Реконструкция частного дома</li>
+                        <li>Реконструкция дачного дома</li>
+                        <li>Реконструкция коттеджа</li>
+                        <li>Реконструкция офисов</li>
+                        <li>Утепление</li>
+                        <li>Гидроизоляция</li>
+                        <!-- <li>Ремонт стен и усиление кладки</li>
+                        <li>Устройство перекрытий</li>
+                        <li>Устройство подземного паркинга</li>
+                        <li>Реконструкция подвала</li>
+                        <li>Надстройка этажа</li> -->
+                    </ol>
+                </div>
             </div>
         </div>
         <section id="feedback" class="feedback">
