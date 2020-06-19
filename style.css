@@ -475,7 +475,7 @@ input.input-at:focus {
     border-bottom: 5px solid #ff5e00;
     font-size: 26px;
     font-weight: bold;
-    width: fit-content;
+    width: max-content;
     text-transform: uppercase;
 }
 
@@ -705,7 +705,7 @@ input.input-at:focus {
         font-size: 20px;
         margin: 0px auto;
         font-weight: bold;
-        max-width: fit-content;
+        max-width: max-content;
     }
 
     .info {
@@ -727,7 +727,7 @@ input.input-at:focus {
     .prof__title {
         font-size: 20px;
         padding-top: 40px;
-        max-width: fit-content;
+        max-width: max-content;
         margin: 0 auto;
         text-align: center;
         margin-bottom: 10px;
@@ -744,7 +744,7 @@ input.input-at:focus {
     .service__header {
         font-size: 20px;
         padding-top: 40px;
-        max-width: fit-content;
+        max-width: max-content;
         margin: 0 auto;
         text-align: center;
         margin-bottom: 10px;
@@ -753,7 +753,7 @@ input.input-at:focus {
     .feedback__header {
         font-size: 20px;
         padding-top: 40px;
-        max-width: fit-content;
+        max-width: max-content;
         margin: 0 auto;
         text-align: center;
         margin-bottom: 10px;
@@ -783,7 +783,7 @@ input.input-at:focus {
 .feedback{
     max-width: 1340px;
     height: 100vh;
-    height: fit-content;
+    height: max-content;
     padding-bottom: 30px;
     margin: 0 auto;
 }
@@ -796,7 +796,7 @@ input.input-at:focus {
     border-bottom: 5px solid #ff5e00;
     font-size: 26px;
     font-weight: bold;
-    width: fit-content;
+    width: max-content;
     text-transform: uppercase;
 }
 
@@ -816,7 +816,7 @@ input.input-at:focus {
     padding: 20px 15px 20px 0px;
     transition: ease-in-out 0.3s;
     margin: 40px 20px 30px 20px;
-    height: fit-content;
+    height: max-content;
 }
 
 .feedback__card:hover {
@@ -941,7 +941,7 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
 
 .case{
     max-width: 1340px;
-    height: fit-content;
+    height: max-content;
     margin: 0 auto;
     padding-bottom: 30px;
 }
@@ -954,7 +954,7 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
     border-bottom: 5px solid #ff5e00;
     font-size: 26px;
     font-weight: bold;
-    width: fit-content;
+    width: max-content;
     text-transform: uppercase;
 }
 
