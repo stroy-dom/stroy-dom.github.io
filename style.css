@@ -970,6 +970,7 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
     padding: 15px;
     margin: 20px 15px 10px 10px;
     cursor: pointer;
+    text-align: center;
     border-style: solid;
     transition: ease-in-out 0.3s;
 }
@@ -984,6 +985,7 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
     padding: 15px;
     margin: 20px 15px 10px 10px;
     cursor: pointer;
+    text-align: center;
     border-style: solid;
     transition: ease-in-out 0.3s;
 }
@@ -1026,7 +1028,7 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
     background-color: #ff5e00;
     font-size: 20px;
     padding: 12px;
-    margin: 15px auto;
+    margin: 15px auto 20px;
     border-radius: 20px;
     width: 160px;
     font-weight: bold;
