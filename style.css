@@ -301,7 +301,7 @@ input.input-at:focus {
     cursor: pointer;
 }
 
-.form-at-btn:hover {
+.forma-btn:hover {
     background-color: #222b36;
 }
 
@@ -941,10 +941,9 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
 
 .case{
     max-width: 1340px;
-    height: 100vh;
     height: fit-content;
-    padding-bottom: 30px;
     margin: 0 auto;
+    padding-bottom: 30px;
 }
 
 .case__header {
@@ -958,6 +957,98 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
     width: fit-content;
     text-transform: uppercase;
 }
+
+.case__btn {
+    display: flex;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.case__future{
+    background-color: #267ac3;
+    box-shadow: 10px 8px 11px 0px rgb(27, 27, 27);
+    padding: 15px;
+    margin: 20px 15px 10px 10px;
+    cursor: pointer;
+    border-style: solid;
+    transition: ease-in-out 0.3s;
+}
+
+.case__future:hover{
+    background-color: #1f5e95;
+}
+
+.case__finish{
+    background-color: #267ac3;
+    box-shadow: 10px 8px 11px 0px rgb(27, 27, 27);
+    padding: 15px;
+    margin: 20px 15px 10px 10px;
+    cursor: pointer;
+    border-style: solid;
+    transition: ease-in-out 0.3s;
+}
+
+.case__finish:hover{
+    background-color: #1f5e95;
+}
+
+.case__projects{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.case__project{
+    background-color: #ebebeb;
+    width: 295px;
+    height: 475px;
+    margin: 40px 20px 20px 20px;
+    transition: ease-in-out 0.3s;
+}
+
+.case__project:hover {
+    box-shadow: 8px 9px 8px 5px rgb(53, 73, 99);
+}
+
+.case__name{
+    color: #080808;
+    font-size: 21px;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.case__price {
+    display: block;
+    background-color: #ff5e00;
+    font-size: 20px;
+    padding: 12px;
+    margin: 15px auto;
+    border-radius: 20px;
+    width: 160px;
+    font-weight: bold;
+    box-shadow: 10px 8px 11px 0px #ff5e00b7;
+    text-align: center;
+}
+
+.case__privilege, .case__privilege-2 {
+    display: flex;
+    align-items: center;
+    color: #080808;
+}
+
+.case__photo{
+    width: 100%;
+}
+
+.case__img {
+    width: 30px;
+    margin: 10px 10px 10px 30px;
+}
+
 
 
 
