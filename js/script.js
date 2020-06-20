@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('.slider').slick({
 		arrows:true,
-		dots:true,
+		dots:false,
 		slidesToShow:3,
 		autoplay:true,
 		speed:900,
@@ -18,6 +18,7 @@ $(document).ready(function(){
 				settings: {
 					slidesToShow:1
 				}
+
 			}
 		]
 	});
