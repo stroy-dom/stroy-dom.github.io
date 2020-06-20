@@ -242,7 +242,7 @@ ul.advantage {
 
 input.input-at {
     height: 50px;
-    padding: 0 20px 0 20px;
+    padding: 0 16px 0 16px;
     font-size: 16px;
     border: none;
 }
@@ -634,7 +634,7 @@ input.input-at:focus {
 /* Mobile (320 px - 425px */
 @media (min-width: 320px) and (max-width: 767px) {
     header {
-        height: 63px;
+        height: 68px;
     }
 
     a.nav__link:first-child {
@@ -642,11 +642,11 @@ input.input-at:focus {
     }
     
     img.logo {
-        width: 100px;
+        width: 107px
     }
 
     img.tel-photo {
-        margin: 10px;
+        margin: 12px;
     }
 
     a.nav__link {
@@ -772,10 +772,17 @@ input.input-at:focus {
     .modal-dialog>div {
         width: 100%;
         position: relative;
-        margin: 25% auto;
+        margin: 20% auto;
         padding: 5px 20px 13px 20px;
     }
 
+    img.avatar-1, .avatar-2, .avatar-3, .avatar-4 {
+        width: 100px;
+    }
+
+    .feedback__name {
+    font-size: 19px;
+    }
 }
 
 .wrapper {
@@ -818,7 +825,7 @@ input.input-at:focus {
     background-color: #ebebeb;
     box-shadow: 8px 8px 8px 3px rgba(0, 0, 0, 0.534);
     width: 400px;
-    padding: 20px 15px 20px 0px;
+    padding: 20px 0px 20px 0px;
     transition: ease-in-out 0.3s;
     margin: 40px 20px 30px 20px;
     height:  -moz-fit-content;
@@ -841,7 +848,7 @@ input.input-at:focus {
 
 .feedback__name {
    padding: 5px;
-   width: 50%;
+   width: 80%;
    margin: auto;
    text-align: center;
    font-size: 22px;
@@ -868,7 +875,7 @@ input.input-at:focus {
  }
 
 img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
-    width: 120px;
+    width: 110px;
 }
 
 /* Slider */
@@ -897,7 +904,7 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
 	margin: -30px 20px 0px 20px;
 	z-index: 10;
 	font-size: 0;
-    width: 20px;
+    width: 18px;
     cursor: pointer;
 	height: 60px;
 }
