@@ -132,7 +132,7 @@ sup {
 
 img {
   border-style: none;
-  height: inherit;
+  height: 100%;
 }
 
 /* Forms
