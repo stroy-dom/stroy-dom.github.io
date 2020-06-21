@@ -7,7 +7,7 @@
 }
 
 a {
-    color: #080808;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -755,6 +755,20 @@ input.input-at:focus {
         margin-bottom: 10px;
     }
 
+    .case__header {
+        font-size: 20px;
+        padding-top: 40px;
+        max-width: -moz-fit-content;
+        max-width: fit-content;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .case__items {
+        justify-content: center;
+    }
+
     .feedback__header {
         font-size: 20px;
         padding-top: 40px;
@@ -952,13 +966,6 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
 	border: 1px solid #fff;
 }
 
-.case{
-    max-width: 1340px;
-    height:  -moz-fit-content;
-    height: fit-content;
-    margin: 0 auto;
-    padding-bottom: 30px;
-}
 
 .case__header {
     text-align: center;
@@ -973,16 +980,23 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
     text-transform: uppercase;
 }
 
-.case__btn {
-    display: flex;
+.case {
+	padding: 40px 0;
+	max-width: 1340px;
+	margin: 0 auto;
+}
+
+.case__items {
+	display: flex;
     padding: 10px;
     font-weight: 500;
 }
-
-.case__future{
-    background-color: #267ac3;
+.case__btn {
+	background-color: #267ac3;
     box-shadow: 10px 8px 11px 0px rgb(27, 27, 27);
-    padding: 15px;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
     margin: 20px 15px 10px 10px;
     cursor: pointer;
     text-align: center;
@@ -990,23 +1004,8 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
     transition: ease-in-out 0.3s;
 }
 
-.case__future:hover{
-    background-color: #1f5e95;
-}
-
-.case__finish{
-    background-color: #267ac3;
-    box-shadow: 10px 8px 11px 0px rgb(27, 27, 27);
-    padding: 15px;
-    margin: 20px 15px 10px 10px;
-    cursor: pointer;
-    text-align: center;
-    border-style: solid;
-    transition: ease-in-out 0.3s;
-}
-
-.case__finish:hover{
-    background-color: #1f5e95;
+.case__btn:hover{
+	background-color: #1f5e95;
 }
 
 .case__projects{
@@ -1016,19 +1015,19 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
     justify-content: center;
 }
 
-.case__project{
-    background-color: #ebebeb;
-    width: 295px;
-    height: 475px;
-    margin: 40px 20px 20px 20px;
-    transition: ease-in-out 0.3s;
+.case__block {
+	position: relative;
+	display: none;
 }
 
-.case__project:hover {
-    box-shadow: 8px 9px 8px 5px rgb(53, 73, 99);
+.case__block:target {
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-.case__name{
+.case__name {
     color: #080808;
     font-size: 21px;
     padding: 10px;
@@ -1036,6 +1035,14 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
     margin: auto;
     font-weight: bold;
     text-align: center;
+}
+
+.case__project {
+    background-color: #ebebeb;
+    width: 295px;
+    height: 475px;
+    margin: 40px 20px 20px 20px;
+    transition: ease-in-out 0.3s;
 }
 
 .case__price {
