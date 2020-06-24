@@ -797,6 +797,15 @@ input.input-at:focus {
     .feedback__name {
     font-size: 19px;
     }
+
+    .case__header, .accordion__header {
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    margin: 0px 0px 0px 20px;
+    color: #fbfbfb;
+    border-bottom: 5px solid #ff5e00;
+    font-size: 23px;
+    }
 }
 
 
@@ -960,23 +969,24 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
 }
 
 
-.case__header {
+.case, .accordion {
+	padding: 40px 0;
+	max-width: 1340px;
+	margin: 0 auto;
+}
+
+.case__header, .accordion__header {
     text-align: center;
     padding: 40px 0px 0px 0px;
     margin: 0px 0px 0px 20px;
     color: #fbfbfb;
     border-bottom: 5px solid #ff5e00;
     font-size: 26px;
+    margin: 0px 20px 0px 20px;
     font-weight: bold;
     max-width:  -moz-fit-content;
     max-width: fit-content;
     text-transform: uppercase;
-}
-
-.case {
-	padding: 40px 0;
-	max-width: 1340px;
-	margin: 0 auto;
 }
 
 .case__items {
@@ -1011,13 +1021,6 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
 .case__block {
 	position: relative;
 	display: none;
-}
-
-.case__block:target {
-	display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
 }
 
 .case__name {
@@ -1069,6 +1072,52 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
     width: 30px;
     margin: 10px 10px 10px 30px;
 }
+
+/* Accordion */
+.accordion__items{
+    max-width: 1340px;
+    margin: 40px 20px 0px 20px;
+  }
+  
+  button.accordion {
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+    text-align: left;
+    padding: 20px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+  }
+  
+  button.accordion:after {
+    content: '\f055';
+    font-family: "fontawesome";
+    font-size: 16px;
+    float: right;
+  }
+  
+  button.accordion.is-open:after {
+    content: '\f056';
+  }
+  
+  button.accordion:hover, button.accordion.is-open {
+    background-color: #ddd;
+    border: none;
+  }
+  
+  .accordion-content {
+    background-color: white;
+    border-bottom: 1px solid #d1d1d1;
+    color: #080808;
+    font-size: 16px;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+  }
 
 
 
