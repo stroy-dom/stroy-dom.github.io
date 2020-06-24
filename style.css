@@ -1108,7 +1108,7 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
     border: none;
   }
   
-  .accordion-content {
+  .accordion__content {
     background-color: white;
     border-bottom: 1px solid #d1d1d1;
     color: #080808;
@@ -1117,6 +1117,10 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-in-out;
+  }
+
+  p.accordion__text{
+      padding: 15px;
   }
 
 
