@@ -1081,11 +1081,11 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
   
   button.accordion {
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #ebebeb;
     border: none;
     text-align: left;
-    padding: 20px 20px;
-    font-size: 18px;
+    padding: 22px 20px;
+    font-size: 19px;
     font-weight: 600;
     color: #333;
     cursor: pointer;
@@ -1095,7 +1095,7 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
   button.accordion:after {
     content: '\f055';
     font-family: "fontawesome";
-    font-size: 16px;
+    font-size: 18px;
     float: right;
 }
   
@@ -1104,13 +1104,13 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
 }
   
   button.accordion:hover, button.accordion.is-open {
-    background-color: #ddd;
+    background-color: #d3d3d3;
     border: none;
 }
   
   .accordion__content {
     background-color: white;
-    border-bottom: 1px solid #d1d1d1;
+    border-bottom: 2px solid #b3b3b3;
     color: #080808;
     font-size: 16px;
     padding: 0 20px;
@@ -1120,7 +1120,7 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
   }
 
   p.accordion__text { 
-      padding: 15px;
+      padding: 20px;
 }
 
 
