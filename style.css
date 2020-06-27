@@ -667,7 +667,7 @@ summary:hover {
     }
 
     p.title{
-        font-size: 22px;
+        font-size: 23px;
         margin-left: 50px;
     }
 
@@ -792,18 +792,20 @@ summary:hover {
     }
 }
 
-@media (max-width: 970px) {
+@media (min-width: 730px) and (max-width: 950px){
+    p.title{
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 950px){
     img.tel-photo {
         margin: 12px;
     }
 
     a.tel {
         font-size: 0px;
-    }
-
-    p.title{
-        font-size: 30px;
-        margin-left: 100px;
     }
 }
 
