@@ -382,22 +382,6 @@ input.input-at:focus {
     border: 2px solid #267ac3;
 }
 
-@media (max-width: 768px) {
-    .validate-input-at.w-50 {
-        width: 100%;
-    }
-
-    .validate-input-at.w-50:first-child {
-        margin-right: 0;
-    }
-
-    .alert-validate::before {
-        visibility: visible;
-        opacity: 1;
-    }
-}
-
-
 /* Модальное окно */
 .modal-dialog {
     position: fixed;
@@ -682,6 +666,11 @@ summary:hover {
         padding: 16px 20px 16px 28px;
     }
 
+    p.title{
+        font-size: 22px;
+        margin-left: 50px;
+    }
+
     .btn {
         text-align: center;
         width: 208px;
@@ -818,12 +807,27 @@ summary:hover {
     }
 }
 
-@media (min-width: 320px) and (max-width: 730px){
-    p.title{
-        font-size: 22px;
-        margin-left: 50px;
+@media (max-width: 768px){
+    ul.slider .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .validate-input-at.w-50 {
+        width: 100%;
+    }
+
+    .validate-input-at.w-50:first-child {
+        margin-right: 0;
+    }
+
+    .alert-validate::before {
+        visibility: visible;
+        opacity: 1;
     }
 }
+
 
 
 .feedback{
@@ -972,13 +976,6 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
 	border-radius: 50%;
 }
 
-@media (max-width: 768px){
-    ul.slider .slick-dots {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
 
 .slider .slick-dots li.slick-active button{
 	background-color: transparent;
