@@ -643,9 +643,13 @@ summary:hover {
     transform: rotate(-45deg);
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 730px) {
     header {
         height: 68px;
+    }
+
+    .feedback__card{
+        margin: 40px 5px 30px 5px;
     }
 
     a.nav__link:first-child {
@@ -810,13 +814,14 @@ summary:hover {
 
     p.title{
         font-size: 30px;
-        margin-left: 50px;
+        margin-left: 100px;
     }
 }
 
 @media (min-width: 320px) and (max-width: 730px){
     p.title{
         font-size: 22px;
+        margin-left: 50px;
     }
 }
 
