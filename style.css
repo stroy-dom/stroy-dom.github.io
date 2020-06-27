@@ -396,6 +396,7 @@ input.input-at:focus {
 
 .modal-dialog:target {
     display: block;
+    z-index: 100;
     pointer-events: auto;
 }
 
