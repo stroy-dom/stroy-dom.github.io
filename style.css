@@ -480,6 +480,18 @@ input.input-at:focus {
     text-transform: uppercase;
 }
 
+summary {
+    color: #080808;
+    margin: 12px 0px 5px 0px;
+    text-align: center;
+    cursor: pointer;
+}
+
+summary:hover {
+    color: #ff5e00;
+    transition: all 0.4s;
+}
+
 .square {
     margin: 0;
     counter-reset: li;
@@ -631,7 +643,6 @@ input.input-at:focus {
     transform: rotate(-45deg);
 }
 
-/* Mobile (320 px - 425px */
 @media (min-width: 320px) and (max-width: 767px) {
     header {
         height: 68px;
@@ -645,30 +656,12 @@ input.input-at:focus {
         width: 107px
     }
 
-    img.tel-photo {
-        margin: 12px;
-    }
-
     a.nav__link {
         font-size: 14px;
     }
 
-    a.tel {
-        font-size: 0px;
-    }
-
     .content {
         font-size: 16px;
-    }
-    
-    p.title {
-        font-size: 23px;
-        margin: 40px;
-        line-height: 1.3;
-        margin-top: 65px;
-        margin-left: 53px;
-        margin-bottom: 0px;
-        padding-bottom: 25px;
     }
 
     ul.advantage {
@@ -678,20 +671,18 @@ input.input-at:focus {
     }
 
     .advantage {
-        max-width: 750px;
+        max-width: 650px;
     }
 
     .advantage li {
         padding: 16px 20px 16px 28px;
     }
 
-    
-
     .btn {
         text-align: center;
-        padding: 19px;
-        width: 215px;
+        width: 208px;
         margin: auto;
+        padding: 16px;
     }
 
     .btn:hover {
@@ -805,6 +796,27 @@ input.input-at:focus {
     color: #fbfbfb;
     border-bottom: 5px solid #ff5e00;
     font-size: 23px;
+    }
+}
+
+@media (max-width: 970px) {
+    img.tel-photo {
+        margin: 12px;
+    }
+
+    a.tel {
+        font-size: 0px;
+    }
+
+    p.title{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 730px){
+    p.title{
+        font-size: 22px;
     }
 }
 
