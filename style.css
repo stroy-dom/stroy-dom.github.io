@@ -203,8 +203,8 @@ ul.advantage {
     background: #222b36;
 }
 
-/* forma */
-.forma {
+/* form */
+.form {
     padding: 25px;
     max-width: 430px;
     margin: 0 auto;
@@ -283,7 +283,7 @@ input.input-at:focus {
     transform: scale(1);
 }
 
-.forma-btn {
+.form-btn {
     position: relative;
     display: block;
     padding: 0 40px;
@@ -301,7 +301,7 @@ input.input-at:focus {
     cursor: pointer;
 }
 
-.forma-btn:hover {
+.form-btn:hover {
     background-color: #222b36;
 }
 
