@@ -1,8 +1,10 @@
-jQuery(document).ready(function () {
-    $(".nav__link, .main__text, .our-trip__body").on("click", "a", function (event) {
-        event.preventDefault();
-        var id = $(this).attr('href'),
-            top = $(id).offset().top;
-        $('body,html').animate({ scrollTop: top }, 700);
-    });
-})
+$(function(){
+
+$('a[data-target^="link"]').bind('click.smoothscroll', function () {
+    var target = $(this).attr('href'),
+        bl_top = $(target).offset().top;
+      $('body, html').animate({scrollTop: bl_top}, 700)
+      return false;  
+    })
+
+});
