@@ -946,6 +946,11 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
         box-shadow: none;
     }
 
+    .photo-img {
+        background-size: auto;
+        background-position: 40% 0%;
+    }
+
     a.nav__link:first-child {
         font-size: 14px;
     }
