@@ -628,210 +628,6 @@ summary:hover {
     transform: rotate(-45deg);
 }
 
-@media (min-width: 320px) and (max-width: 730px) {
-    header {
-        height: 68px;
-    }
-
-    .feedback__card{
-        margin: 40px 5px 30px 5px;
-    }
-
-    a.nav__link:first-child {
-        font-size: 14px;
-    }
-    
-    img.logo {
-        width: 107px
-    }
-
-    a.nav__link {
-        font-size: 14px;
-    }
-
-    .content {
-        font-size: 16px;
-    }
-
-    ul.advantage {
-        padding: 12px;
-        margin-left: 0px;
-        font-size: 15px;
-    }
-
-    .advantage {
-        max-width: 650px;
-    }
-
-    .advantage li {
-        padding: 16px 20px 16px 28px;
-    }
-
-    p.title{
-        font-size: 23px;
-        margin-left: 50px;
-    }
-
-    .btn {
-        text-align: center;
-        width: 208px;
-        margin: auto;
-        padding: 16px;
-    }
-
-    .btn:hover {
-        padding: 19px;
-        width: 213px;
-        margin: auto;
-    }
-
-
-    .about__title {
-        padding-top: 40px;
-        margin-bottom: 10px;
-        font-size: 20px;
-        margin: 0px auto;
-        font-weight: bold;
-        max-width: fit-content;
-        max-width:  -moz-fit-content;
-    }
-
-    .info {
-       font-size: 16px;
-    }
-
-    .button {
-        position: relative;
-        color: #fff;
-        margin: 0px;
-    }
-
-    .button {
-        position: relative;
-        color: #fff;
-        margin: 0px;
-    }
-
-    .prof__title {
-        font-size: 20px;
-        padding-top: 40px;
-        max-width:  -moz-fit-content;
-        max-width: fit-content;
-        margin: 0 auto;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .service__title {
-        font-size: 19px;
-        font-weight: bold;
-        color: #080808;
-        margin: 12px 10px 12px 10px;
-        text-align: center;
-    }
-
-    .service__header {
-        font-size: 20px;
-        padding-top: 40px;
-        max-width:  -moz-fit-content;
-        max-width: fit-content;
-        margin: 0 auto;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .case__header {
-        font-size: 20px;
-        padding-top: 40px;
-        max-width: -moz-fit-content;
-        max-width: fit-content;
-        margin: 0 auto;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .case__items {
-        justify-content: center;
-    }
-
-    .feedback__header {
-        font-size: 20px;
-        padding-top: 40px;
-        max-width:  -moz-fit-content;
-        max-width: fit-content;
-        margin: 0 auto;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .square {
-        font-size: 15px;
-    }
-    
-    .modal-dialog>div {
-        width: 100%;
-        position: relative;
-        margin: 20% auto;
-        padding: 5px 20px 13px 20px;
-    }
-
-    img.avatar-1, .avatar-2, .avatar-3, .avatar-4 {
-        width: 100px;
-    }
-
-    .feedback__name {
-    font-size: 19px;
-    }
-
-    .case__header, .accordion__header {
-    text-align: center;
-    padding: 40px 0px 0px 0px;
-    margin: 0px 0px 0px 20px;
-    color: #fbfbfb;
-    border-bottom: 5px solid #ff5e00;
-    font-size: 23px;
-    }
-}
-
-@media (min-width: 730px) and (max-width: 950px){
-    p.title{
-        font-size: 30px;
-    }
-
-}
-
-@media (min-width: 320px) and (max-width: 950px){
-    img.tel-photo {
-        margin: 12px;
-    }
-
-    a.tel {
-        font-size: 0px;
-    }
-}
-
-@media (max-width: 768px){
-    ul.slider .slick-dots {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .validate-input-at.w-50 {
-        width: 100%;
-    }
-
-    .validate-input-at.w-50:first-child {
-        margin-right: 0;
-    }
-
-    .alert-validate::before {
-        visibility: visible;
-        opacity: 1;
-    }
-}
-
-
 
 .feedback{
     max-width: 1340px;
@@ -1138,6 +934,162 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
 
   p.accordion__text { 
       padding: 20px;
+}
+
+@media screen and (max-width: 730px) {
+    header {
+        height: 68px;
+    }
+
+    .feedback__card{
+        margin: 40px 5px 30px 5px;
+        box-shadow: none;
+    }
+
+    a.nav__link:first-child {
+        font-size: 14px;
+    }
+    
+    img.logo {
+        width: 107px
+    }
+
+    a.nav__link {
+        font-size: 14px;
+    }
+
+    .content {
+        font-size: 16px;
+    }
+
+    ul.advantage {
+        padding: 12px;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+
+    .advantage {
+        max-width: 650px;
+    }
+
+    .advantage li {
+        padding: 16px 20px 16px 28px;
+    }
+
+    p.title{
+        font-size: 23px;
+        margin-left: 50px;
+    }
+
+    .btn {
+        text-align: center;
+        width: 208px;
+        margin: auto;
+        padding: 16px;
+    }
+
+    .btn:hover {
+        padding: 19px;
+        width: 213px;
+        margin: auto;
+    }
+
+    .about__title, .service__header, .prof__title, 
+    .feedback__header, .case__header, 
+    .accordion__header {
+        padding-top: 40px;
+        margin-bottom: 10px;
+        font-size: 22px;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: bold;
+        max-width: fit-content;
+        max-width:  -moz-fit-content;
+    }
+
+    .info {
+       font-size: 16px;
+    }
+
+    .button {
+        position: relative;
+        color: #fff;
+        margin: 0px;
+    }
+
+    .button {
+        position: relative;
+        color: #fff;
+        margin: 0px;
+    }
+
+    .service__title {
+        font-size: 19px;
+        font-weight: bold;
+        color: #080808;
+        margin: 12px 10px 12px 10px;
+        text-align: center;
+    }
+
+    .case__items {
+        justify-content: center;
+    }
+    .square {
+        font-size: 15px;
+    }
+    
+    .modal-dialog>div {
+        width: 100%;
+        position: relative;
+        margin: 20% auto;
+        padding: 5px 20px 13px 20px;
+    }
+
+    img.avatar-1, .avatar-2, .avatar-3, .avatar-4 {
+        width: 100px;
+    }
+
+    .feedback__name {
+    font-size: 19px;
+    }
+}
+
+@media (min-width: 730px) and (max-width: 950px){
+    p.title{
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 950px){
+    img.tel-photo {
+        margin: 12px;
+    }
+
+    a.tel {
+        font-size: 0px;
+    }
+}
+
+@media (max-width: 768px){
+    ul.slider .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .validate-input-at.w-50 {
+        width: 100%;
+    }
+
+    .validate-input-at.w-50:first-child {
+        margin-right: 0;
+    }
+
+    .alert-validate::before {
+        visibility: visible;
+        opacity: 1;
+    }
 }
 
 
