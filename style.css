@@ -947,7 +947,7 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
     }
 
     .photo-img {
-        background-size: auto;
+        background-size: inherit;
         background-position: 40% 0%;
     }
 
