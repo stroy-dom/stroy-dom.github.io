@@ -486,10 +486,10 @@ input.input-at:focus {
     width: 100%;
     display: block;
     min-height: 100vh;
-    margin-top: 109px;
+    margin-top: 100px;
     color: #fbfbfb;
     font-size: 19px;
-    background-color: #28323f
+    background-color: #28323f;
 }
 
 .about__title {
@@ -593,7 +593,7 @@ summary:hover {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding-top: 5px;
+    padding: 20px 0px 0px 0px;
     flex-flow: wrap;
     color: #080808;
 }
@@ -617,11 +617,10 @@ summary:hover {
 }
 
 .service__card {
-    margin-bottom: 50px;
     display: inline-block;
-    width: 303px;
+    width: 290px;
     box-shadow: 12px 19px 19px 3px rgba(0, 0, 0, 0.534);
-    margin-right: 30px;
+    margin: 0px 22px 30px 22px;
     transition: ease-in-out 0.3s;
     height: auto;
     background-color: #ebebeb;
@@ -633,7 +632,7 @@ summary:hover {
 
 .image {
     overflow:hidden;
-    width: 295px;
+    width: 286px;
     height: 222px;
   }
   
@@ -657,14 +656,12 @@ summary:hover {
 }
 
 .service__card {
-    width: 295px;
-    margin: 20px;
 }
 
 /* feedback */
 .feedback {
     padding-bottom: 30px;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 20px 20px 20px;
     margin: 0 auto;
 }
 
@@ -806,6 +803,10 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
 }
 
 /* Portfolio */
+.case{
+    padding: 20px;
+}
+
 .case__items {
 	display: flex;
     padding: 10px;
@@ -835,6 +836,7 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
     justify-content: center;
 }
 
+
 .case__block {
 	position: relative;
 	display: none;
@@ -854,7 +856,7 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
     background-color: #ebebeb;
     width: 295px;
     height: 475px;
-    margin: 40px 40px 20px 0px;
+    margin: 40px 30px 20px 0px;
     transition: ease-in-out 0.3s;
 }
 
@@ -892,7 +894,7 @@ img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
 
 /* Accordion */
 .accordion{
-    padding: 20px 0px 30px 0px;
+    padding: 20px 20px 30px 20px;
 }
 
 .accordion__items {
@@ -917,6 +919,7 @@ button.accordion:after {
     font-family: "fontawesome";
     font-size: 18px;
     float: right;
+    color: #28323f;
 }
   
 button.accordion.is-open:after {
