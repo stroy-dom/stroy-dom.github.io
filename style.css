@@ -632,7 +632,7 @@ summary:hover {
 
 .image {
     overflow:hidden;
-    width: 291px;
+    width: 100%;
     height: 215px
 } 
   
