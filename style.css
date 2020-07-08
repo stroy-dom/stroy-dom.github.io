@@ -633,8 +633,8 @@ summary:hover {
 .image {
     overflow:hidden;
     width: 286px;
-    height: 222px;
-  }
+    height: 215px
+} 
   
 /* scale for image */
   .image img {
