@@ -83,7 +83,7 @@ a.tel:hover {
 
 /* main photo */
 .photo-img {
-    background-image: url(img/photo-main.webp);
+    background-image: url(img/photo-main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 0%;
