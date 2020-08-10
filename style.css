@@ -725,7 +725,19 @@ summary:hover {
     font-size: 16px;
     padding: 10px 0px 0px 0px;
     width: 80%;
- }
+}
+
+.feedback__text > a {
+    display:block;
+    padding:10px;
+    margin-top: 10px;
+    text-align:center;
+    text-transform:uppercase;
+    color:#fff;
+    border: 0;
+    background-color: #267AC3;
+    border-bottom: 3px solid #1c62a0;
+}
 
 img.avatar-1, .avatar-2, .avatar-3, .avatar-4{
     width: 110px;
