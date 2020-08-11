@@ -10,6 +10,7 @@
     <title>Строй дом | Строительная компания</title>
 </head>
 <body>
+    <a href="#" class="back-to-top"></a>
     <header id="home" class="header">
         <div class="container">
             <a href="#"><img class="logo" src="img/logo.png" alt="logo"></a>
@@ -100,7 +101,7 @@
             </div>
             <div class="header__top" id="service">НАШИ УСЛУГИ</div>
         </div>
-
+        
         <div class="service">
             <div class="service__card">
             <div class="image">
@@ -109,7 +110,6 @@
                     <img class="service__photo" src="img/@1x-jpg/serv-img1.jpg" srcset="image/@2x-jpg/serv-img1.jpg 2x, image/@3x-jpg/serv-img1.jpg 3x" alt="serv-img-1">
                 </picture>
             </div>
-
                 <div class="service__title">Фасадные работы</div>
                 <div class="service__subtitle">
                     <ol class="square">
@@ -119,13 +119,6 @@
                         <li>Ремонт балконов и лоджий</li>
                         <li>Реставрация фасада</li>
                         <li>Декор фасада</li>
-                        <!-- <details>
-                            <summary>Подробнее</summary>
-                            <li>Отделка фасада</li>
-                            <li>Ремонт фасада</li>
-                            <li>Монтаж вентилируемого фасада</li>
-                            <li>Утепление фасадов</li>
-                        </details> -->
                     </ol>
                 </div>
             </div>
@@ -148,13 +141,6 @@
                         <li>Устройство крыш</li>
                         <li>Гидроизоляция кровли</li>
                         <li>Монтаж кровли</li>
-                        <!-- <details>
-                            <summary>Подробнее</summary>
-                                <li>Ремонт кровли</li>
-                                <li>Утепление кровли</li>
-                                <li>Строительство мансард</li>
-                                <li>Водосточные системы</li></p>
-                        </details> -->
                     </ol>
                 </div>
             </div>
@@ -175,13 +161,6 @@
                         <li>Окраска стен</li>
                         <li>Оклейка стен обоями</li>
                         <li>Нанесение штукатурки</li>
-                        <!-- <details>
-                            <summary>Подробнее</summary>
-                            <li>Шпаклевка стен</li>
-                            <li>Шпаклевка потолков</li>
-                            <li>Облицовка плиткой</li>
-                            <li>Подвесные потолки</li>
-                        </details> -->
                     </ol>
                 </div>
             </div>
@@ -201,13 +180,6 @@
                         <li>Проектные работы</li>
                         <li>Проектирование общественных зданий</li>
                         <li>Проектирование коттеджей</li>
-                        <!-- <details>
-                            <summary>Подробнее</summary>
-                            <li>Промышленное проектирование</li>
-                            <li>Проектирование торговых центров</li>
-                            <li>Проектирование складов</li>
-                            <li>Проектирование магазинов</li>
-                        </details> -->
                     </ol>
                 </div>
             </div>
@@ -228,12 +200,6 @@
                         <li>Ремонт квартир</li>
                         <li>Ремонт нежилых помещений</li>
                         <li>Ремонт производственных помещений</li>
-                        <!-- <details>
-                            <summary>Подробнее</summary>
-                            <li>Дизайн - проект</li>
-                            <li>Инженерный проект</li>
-                            <li>Перепланировка нежилого помещения</li>
-                        </details> -->
                     </ol>
                 </div>
             </div>
@@ -254,14 +220,6 @@
                         <li>Реконструкция офисов</li>
                         <li>Утепление</li>
                         <li>Гидроизоляция</li>
-                        <!-- <details>
-                            <summary>Подробнее</summary>
-                            <li>Ремонт стен и усиление кладки</li>
-                            <li>Устройство перекрытий</li>
-                            <li>Устройство подземного паркинга</li>
-                            <li>Реконструкция подвала</li>
-                            <li>Надстройка этажа</li>
-                        </details> -->
                     </ol>
                 </div>
             </div>
@@ -468,7 +426,7 @@
                     <button class="accordion">Какие гарантии предоставляет ваша компания?</button>
                     <div class="accordion__content">
                         <p class="accordion__text">Наша компания на рынке уже более 15 лет и за это время мы выполнили десятки тысяч работ.
-                            На каждую услугу компания "Строй Дом" предоствляет гарантию 5 лет, за исключением строительство домов, там гарантия будет действовать 15 лет. 
+                            На каждую услугу компания "Строй Дом" предоствляет гарантию 3 года, за исключением строительство домов, там гарантия будет действовать 10 лет. 
                             Вы также можете ознакомиться с отзывами наших клиентов и с нашим обширным портфолио.</p>
                     </div>
             
@@ -489,21 +447,43 @@
                     <button class="accordion">Предоставляете ли вы скидки льготным категориям людей?</button>
                     <div class="accordion__content">
                         <p class="accordion__text">
-                            Да. Скидка на все виды услуг — 5%. На cтроительство домов — 15%.
+                            Да. Скидка на все виды услуг — 5%. На строительсов домов — 15%.
                         </p>
                     </div>
                 </div>
             </section>
-        </div>
+
+            <!-- <section class="contact__form">
+                <div class="header__top">Остались вопросы? Напишите нам</div>
+                <div class="contact__wrapper">
+                    <form action="#" name="newform" method="POST">
+                        <div class="form__inputs">
+                            <p>Имя<span class="red__required">*</span><input class="input__contact" type="text" required></p>
+                            <p>Email<span class="red__required">*</span><input class="input__contact" type="email" required></p>   
+                        </div>
+                        <p>Сообщение<span class="red__required">*</span></p>
+                        <textarea class="textarea__contact" name="text" required></textarea>
+                        <div class="button__block">
+                            <input class="contact__btn" type="submit" value="Отправить">
+                        </div>
+                    </form>
+                    <div class="contact__menu">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7574884573ca7e2c35b9d648b82b6d9218c64926ea364f1d953c845266ebd49e&amp;source=constructor" width="320" height="313" frameborder="0"></iframe>
+                    </div>
+                </div> -->
+            </section>
+        </div> <!--Container-->
+
     <!-- Подключаем jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.elimore.js"></script>
+    <script src="js/jquery.min.js"></script>
     <!-- Подключаем jS -->
+    <script src="js/scroll.js"></script>
+    <script src="js/scrollTop.js"></script>
     <script src="js/accordion.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/scroll.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.elimore.js"></script>
 </body>
 </html>
