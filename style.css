@@ -247,17 +247,7 @@ ul.advantage {
     background: #384658;
 }
 
-.btn:hover {
-    display: flex;
-    height: 60px;
-    padding: 25px;
-    width: 230px;
-    border-style: solid;
-    align-items: center;
-    font-weight: bold;
-    box-shadow: 10px 8px 11px 0px rgba(50, 50, 50, 0.58);
-    font-size: 16px;
-    text-decoration: none;
+.btn:hover{
     background: #222b36;
 }
 
@@ -394,83 +384,6 @@ input.input-at:focus {
 
 .form-btn:hover {
     background-color: #222b36;
-}
-
-.form-at-btn[disabled] {
-    opacity: .6;
-    cursor: not-allowed;
-}
-
-.alert-validate::before {
-    content: attr(data-validate);
-    position: absolute;
-    max-width: 70%;
-    background-color: #fff;
-    border: 1px solid #c80000;
-    border-radius: 2px;
-    padding: 4px 25px 4px 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 12px;
-    pointer-events: none;
-    color: #c80000;
-    font-size: 13px;
-    line-height: 1.4;
-    text-align: left;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.alert-validate::after {
-    content: "\2718";
-    display: block;
-    position: absolute;
-    color: #c80000;
-    font-size: 18px;
-    font-weight: bold;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 22px;
-}
-
-.alert-validate:hover:before {
-    visibility: visible;
-    opacity: 1;
-}
-
-.form-at input[type=checkbox] {
-    display: none;
-}
-
-.form-at input[type=checkbox]+label {
-    display: block;
-    position: relative;
-    margin: 0 0 20px 34px;
-    font-size: 13px;
-    line-height: 24px;
-    color: #333333;
-}
-
-.form-at input[type=checkbox]+label:before {
-    box-sizing: border-box;
-    position: absolute;
-    content: '';
-    width: 26px;
-    height: 26px;
-    line-height: 22px;
-    left: -34px;
-    border: 2px solid #267ac3;
-    border-radius: 2px;
-}
-
-.form-at input[type=checkbox]:checked+label:before {
-    content: '\2714';
-    color: #267ac3;
-    font-size: 14px;
-    text-align: center;
-    font-weight: bold;
-    border: 2px solid #267ac3;
 }
 
 /* mоdal */
@@ -992,7 +905,7 @@ button.accordion {
     transition: 0.2s linear;
 }
 
-button.accordion:after {
+p.accordion__title:after {
     content: '\f055';
     font-family: "fontawesome";
     font-size: 18px;
@@ -1000,13 +913,9 @@ button.accordion:after {
     color: #28323f;
 }
 
-button.accordion.is-open:after {
-    content: '\f056';
-}
-
 button.accordion:hover,
 button.accordion.is-open {
-    background-color: #d3d3d3;
+    background-color: rgb(194, 194, 194);
     border: none;
 }
 
@@ -1177,7 +1086,7 @@ p.accordion__text {
 
     .btn:hover {
         padding: 19px;
-        width: 213px;
+        width: 208px;
         margin: auto;
     }
 
