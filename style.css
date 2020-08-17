@@ -650,10 +650,6 @@ summary:hover {
     height: fit-content;
 }
 
-.feedback__card:hover {
-    box-shadow: 8px 9px 8px 5px rgb(53, 73, 99);
-}
-
 .feedback__content {
     margin: auto;
 }
