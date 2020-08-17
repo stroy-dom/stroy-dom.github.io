@@ -890,7 +890,7 @@ img.avatar {
 
 button.accordion {
     width: 100%;
-    background-color: #ebebeb;
+    background-color: #f1f1f1;
     border: none;
     text-align: left;
     padding: 22px 20px;
@@ -911,7 +911,7 @@ p.accordion__title:after {
 
 button.accordion:hover,
 button.accordion.is-open {
-    background-color: rgb(194, 194, 194);
+    background-color: #dbdbdb;
     border: none;
 }
 
