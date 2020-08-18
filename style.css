@@ -937,12 +937,14 @@ p.accordion__text {
 }
 
 .contact__wrapper {
-    width: 700px;
+    width: 100%;
     padding-top: 40px;
+    max-width: 700px;
+    margin-bottom: 0px;
 }
 
 .contact__form {
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
 }
 
 .red__required {
@@ -966,7 +968,7 @@ p.accordion__text {
 }
 
 .input__contact {
-    width: 335px;
+    width: 100%;
     margin-top: 3px;
     padding: 10px;
     border-radius: 5px;
@@ -977,7 +979,7 @@ p.accordion__text {
 }
 
 .input__contact:first-of-type {
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .button__block {
@@ -989,6 +991,8 @@ p.accordion__text {
     color: #fff;
     height: 50px;
     width: 165px;
+    outline: none;
+    border: none;
     transition: ease 0.3s;
     font-weight: bold;
     box-shadow: 10px 8px 11px 0px rgba(50, 50, 50, 0.58);
@@ -1000,10 +1004,10 @@ p.accordion__text {
     cursor: pointer;
 }
 
-.contact__btn:hover {
+.contact__btn:hover,
+.contact__btn:focus {
     background: #384658a4;
 }
-
 
 /* @Media */
 @media screen and (max-width: 730px) {
