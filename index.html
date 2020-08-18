@@ -21,7 +21,8 @@
                 <a class="nav__link" href="#service" data-target="link">Услуги</a>
                 <a class="nav__link" href="#feedback" data-target="link">Отзывы</a>
                 <a class="nav__link" href="#case" data-target="link">Портфолио</a>
-                <a class="nav__link" href="#faq" data-target="link">Вопросы</a>
+                <a class="nav__link" href="#faq" data-target="link">FAQ</a>
+                <a class="nav__link" href="#form" data-target="link">Вопросы</a>
             </nav>
             <div class="tel-number">
                 <a href="tel:+79262332211"><img class="tel-photo" src="img/tel-phone.svg" alt="tel"></a>
@@ -462,12 +463,13 @@
                 </div>
             </section>
 
-<!--             <section class="contact__form">
+            <section class="contact__form" id="form">
                 <div class="header__top">Остались вопросы? Напишите нам</div>
                 <div class="contact__wrapper">
                     <form action="#" name="newform" method="POST">
                         <div class="form__inputs">
                             <p>Имя<span class="red__required">*</span><input class="input__contact" type="text" required></p>
+                               
                             <p>Email<span class="red__required">*</span><input class="input__contact" type="email" required></p>   
                         </div>
                         <p>Сообщение<span class="red__required">*</span></p>
@@ -476,12 +478,12 @@
                             <input class="contact__btn" type="submit" value="Отправить">
                         </div>
                     </form>
-                    <div class="contact__menu">
-                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7574884573ca7e2c35b9d648b82b6d9218c64926ea364f1d953c845266ebd49e&amp;source=constructor" width="320" height="313" frameborder="0"></iframe>
-                    </div>
                 </div>
-            </section> -->
-        </div> <!--Container-->
+            </section>
+        </div> 
+            <div class="contact__map">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7574884573ca7e2c35b9d648b82b6d9218c64926ea364f1d953c845266ebd49e&amp;source=constructor" width="100%" height="350" frameborder="0"></iframe>
+            </div>
     </div>
     <!-- Подключаем jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -496,7 +498,6 @@
     <script src="js/scroll.js"></script>
     <script src="js/scrollTop.js"></script>
     <script src="js/script.js"></script>
-
 
 </body>
 </html>
