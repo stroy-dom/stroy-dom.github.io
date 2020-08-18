@@ -938,8 +938,8 @@ p.accordion__text {
 
 .contact__wrapper {
     width: 100%;
+    max-width: 610px;
     padding-top: 40px;
-    max-width: 700px;
     margin-bottom: 0px;
 }
 
@@ -978,9 +978,6 @@ p.accordion__text {
     border: 1px solid #535353;
 }
 
-.input__contact:first-of-type {
-    margin-right: 70px;
-}
 
 .button__block {
     display: flex;
@@ -1199,6 +1196,7 @@ p.accordion__text {
         transition: ease-in-out 0.3s;
     }
 }
+
 
 ::-webkit-scrollbar-button {
     background-image: url('');
