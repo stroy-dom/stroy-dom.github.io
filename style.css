@@ -1049,7 +1049,8 @@ p.accordion__text {
 }
 
 .textarea__contact {
-    width: 100%;
+    width: 560px;
+    max-width: 100%;
     outline: none;
     resize: none;
     overflow: auto;
