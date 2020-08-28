@@ -1085,11 +1085,12 @@ p.accordion__text {
     color: #fff;
     height: 50px;
     width: 165px;
+    outline: none;
     transition: ease 0.3s;
+    border: 2px solid #fff;
     font-weight: bold;
     box-shadow: 10px 8px 11px 0px rgba(50, 50, 50, 0.58);
     font-size: 16px;
-    border-style: none;
     text-decoration: none;
     background: #404e63;
     margin-top: 12px;
