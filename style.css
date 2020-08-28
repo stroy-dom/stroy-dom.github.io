@@ -1292,6 +1292,13 @@ p.accordion__text {
     }
 }
 
+@media (min-width: 650px) {
+ .input__contact {
+    max-width: 100%;
+    width: 295px;
+    }
+}
+
 ::-webkit-scrollbar-button {
     background-image: url('');
     background-repeat: no-repeat;
