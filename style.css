@@ -1197,6 +1197,20 @@ p.accordion__text {
     }
 }
 
+@media (min-width: 650px) {
+  .textarea__contact {
+    width: 100%;
+    outline: none;
+    resize: none;
+    overflow: auto;
+    margin-top: 3px;
+    height: 160px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #535353;
+    }
+}
+
 
 ::-webkit-scrollbar-button {
     background-image: url('');
