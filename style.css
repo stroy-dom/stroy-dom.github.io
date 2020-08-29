@@ -321,7 +321,7 @@ input.input-at {
 }
 
 .input-at {
-    min-height: 115px;
+    min-height: 60px;
     padding: 18px 20px;
     font-size: 16px;
     line-height: 22px;
