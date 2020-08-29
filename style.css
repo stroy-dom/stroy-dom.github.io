@@ -861,6 +861,8 @@ img.avatar {
     font-weight: bold;
     box-shadow: 10px 8px 11px 0px #ff5e00b7;
     text-align: center;
+    cursor: pointer;
+    
 }
 
 .case__privilege,
