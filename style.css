@@ -989,12 +989,11 @@ p.accordion__text {
     height: 50px;
     width: 165px;
     outline: none;
-    border: none;
     transition: ease 0.3s;
     font-weight: bold;
     box-shadow: 10px 8px 11px 0px rgba(50, 50, 50, 0.58);
     font-size: 16px;
-    border-style: none;
+    border: 2px solid #fff;
     text-decoration: none;
     background: #404e63;
     margin-top: 12px;
