@@ -84,14 +84,6 @@ a.nav__link {
     margin-left: 22px;
 }
 
-a.nav__link:first-child {
-    font-size: 17px;
-    font-weight: 500;
-    color: #ff5e00;
-    text-decoration: none;
-    margin-left: 22px;
-}
-
 a.nav__link:hover {
     color: #ff5e00;
     text-decoration: transparent;
