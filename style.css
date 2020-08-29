@@ -328,7 +328,7 @@ input.input-at {
     border: none;
 }
 
-textarea.input-at {
+.input-at {
     min-height: 115px;
     padding: 18px 20px;
     font-size: 16px;
@@ -938,6 +938,7 @@ p.accordion__text {
 
 .contact__wrapper {
     width: 100%;
+    max-width: 558px;
     max-width: 610px;
     padding-top: 40px;
     margin-bottom: 0px;
