@@ -82,15 +82,11 @@ a.nav__link {
     color: #fff;
     transition: ease 0.3s;
     text-decoration: none;
-    margin-left: 22px;
+    margin-left: 30px;
 }
 
 a.nav__link:first-child {
-    font-size: 17px;
-    font-weight: 500;
     color: #ff5e00;
-    text-decoration: none;
-    margin-left: 22px;
 }
 
 a.nav__link:hover {
@@ -102,15 +98,13 @@ img.logo {
     width: 125px;
 }
 
-/* phone */
 img.tel-photo {
-    width: 25px;
+    width: 20px;
     margin-right: 10px;
 }
 
 .tel-number {
     display: flex;
-    align-items: center;
 }
 
 a.tel {
@@ -126,13 +120,11 @@ a.tel:hover {
     text-decoration: transparent;
 }
 
-/* Container */
 .inner__container {
     max-width: 1340px;
     margin: 0 auto;
 }
 
-/* main photo */
 .photo-img {
     background-image: url(img/photo-main.jpg);
     background-repeat: no-repeat;
@@ -156,7 +148,6 @@ h1.main__title {
     padding-bottom: 25px;
 }
 
-/* Advantage */
 ul.advantage {
     margin-left: 60px;
     font-size: 18px;
@@ -170,7 +161,6 @@ ul.advantage {
     padding-right: 20px;
     max-width: 750px;
     counter-reset: li;
-    /* Устанавливет счётчик */
 }
 
 .advantage li {
@@ -188,100 +178,97 @@ ul.advantage {
 }
 
 .advantage li:before {
-    line-height: 32px;
-    position: absolute;
-    top: 8px;
-    left: -40px;
-    width: 40px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    color: #FFF;
-    background: #267ac3;
-    counter-increment: li;
-    content: counter(li);
-    transition-duration: 0.3s;
+	line-height: 32px;
+	position: absolute;
+	top: 8px;
+	left: -40px;
+	width: 40px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+	background: #267ac3;
+	counter-increment: li;
+	content: counter(li);
+	transition-duration: 0.3s;
 }
 
 .advantage li:hover:before {
-    /* Стили для треугольников при наведении*/
     width: 46px;
 }
 
 .advantage li:after {
-    position: absolute;
-    left: 0;
-    top: 8px;
-    content: "";
-    border: 16px solid transparent;
-    border-left-color: #267ac3;
-    transition-duration: 0.3s;
+	position: absolute;
+	left: 0;
+	top: 8px;
+	content: "";
+	border: 16px solid transparent;
+	border-left-color: #267ac3;
+	transition-duration: 0.3s;
 }
 
 .advantage li:hover:after {
     margin-left: 6px;
 }
 
-
-/* button */
 .button {
-    position: relative;
-    margin-left: 100px;
-    color: #fff;
-    margin-top: 20px;
+	position: relative;
+	margin-left: 100px;
+	color: #fff;
+	margin-top: 20px;
 }
 
 .btn {
-    display: flex;
-    margin-bottom: 30px;
-    color: #fff;
-    height: 60px;
-    padding: 25px;
-    width: 230px;
-    transition: ease 0.3s;
-    align-items: center;
-    font-weight: bold;
-    box-shadow: 10px 8px 11px 0px rgba(50, 50, 50, 0.58);
-    font-size: 16px;
-    border-style: solid;
-    text-decoration: none;
-    background: #384658;
+	display: flex;
+	margin-bottom: 30px;
+	color: #fff;
+	height: 60px;
+	padding: 25px;
+	width: 230px;
+	transition: ease 0.3s;
+	align-items: center;
+	font-weight: bold;
+	box-shadow: 10px 8px 11px 0px rgba(50, 50, 50, 0.58);
+	font-size: 16px;
+	border-style: solid;
+	text-decoration: none;
+	background: #384658;
 }
 
 .btn:hover {
-    display: flex;
-    height: 60px;
-    padding: 25px;
-    width: 230px;
-    border-style: solid;
-    align-items: center;
-    font-weight: bold;
-    box-shadow: 10px 8px 11px 0px rgba(50, 50, 50, 0.58);
-    font-size: 16px;
-    text-decoration: none;
-    background: #222b36;
+	display: flex;
+	height: 60px;
+	padding: 25px;
+	width: 230px;
+	border-style: solid;
+	align-items: center;
+	font-weight: bold;
+	box-shadow: 10px 8px 11px 0px rgba(50, 50, 50, 0.58);
+	font-size: 16px;
+	text-decoration: none;
+	background: #222b36;
 }
 
 /* form */
 .form {
-    padding: 25px;
-    max-width: 430px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    overflow: hidden;
-    background: #f9f9f9;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 10px 18px rgba(0, 0, 0, 0.2);
+	padding: 25px;
+	max-width: 430px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	overflow: hidden;
+	background: #f9f9f9;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 10px 18px rgba(0, 0, 0, 0.2);
 }
 
 .close {
-    cursor: pointer;
-    position: absolute;
-    right: -25px;
-    bottom: 65px;
-    width: 35px;
-    color: #384658;
-    height: 30px;
-    opacity: 0.3;
+	cursor: pointer;
+	position: absolute;
+	right: -25px;
+	bottom: 65px;
+	width: 35px;
+	color: #384658;
+	height: 30px;
+	opacity: 0.3;
 }
 
 .close:hover {
@@ -290,12 +277,12 @@ ul.advantage {
 
 .close:before,
 .close:after {
-    position: absolute;
-    left: 15px;
-    content: ' ';
-    height: 30px;
-    width: 2px;
-    background-color: #384658;
+	position: absolute;
+	left: 15px;
+	content: ' ';
+	height: 30px;
+	width: 2px;
+	background-color: #384658;
 }
 
 .close:before {
@@ -1299,36 +1286,4 @@ p.accordion__text {
     max-width: 100%;
     width: 295px;
     }
-}
-
-::-webkit-scrollbar-button {
-    background-image: url('');
-    background-repeat: no-repeat;
-    width: 11px;
-    height: 0px
-}
-
-::-webkit-scrollbar-track {
-    background-color: #28323F;
-}
-
-::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 0px;
-    border-radius: 10px;
-    background-color: #ffffff
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: #d15913
-}
-
-::-webkit-resizer {
-    background-image: url('');
-    background-repeat: no-repeat;
-    width: 11px;
-    height: 0px
-}
-
-::-webkit-scrollbar {
-    width: 11px;
 }
